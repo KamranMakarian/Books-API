@@ -38,8 +38,34 @@ cd Books-API
 
 ```bash
 python -m venv venv
-venv\Scripts\activate
 ```
+
+### Activate the environment
+
+#### For Command Prompt (CMD)
+
+```bash
+venv\Scripts\activate.bat
+```
+
+#### For PowerShell
+
+```bash
+venv\Scripts\Activate.ps1
+```
+
+If you see a permission error, run:
+
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+#### For Git Bash (including VS Code terminal if Git Bash is selected)
+
+```bash
+source venv/Scripts/activate
+```
+
 
 ### 🔧 Install Dependencies
 
