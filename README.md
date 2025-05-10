@@ -42,7 +42,7 @@ python -m venv venv
 
 ### Activate the environment
 
-#### For Command Prompt (CMD)
+#### > For Command Prompt (CMD)
 
 ```bash
 venv\Scripts\activate.bat
