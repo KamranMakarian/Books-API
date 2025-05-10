@@ -48,7 +48,7 @@ python -m venv venv
 venv\Scripts\activate.bat
 ```
 
-#### For PowerShell
+#### > For PowerShell
 
 ```bash
 venv\Scripts\Activate.ps1
@@ -60,7 +60,7 @@ If you see a permission error, run:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-#### For Git Bash (including VS Code terminal if Git Bash is selected)
+#### > For Git Bash (including VS Code terminal if Git Bash is selected)
 
 ```bash
 source venv/Scripts/activate
